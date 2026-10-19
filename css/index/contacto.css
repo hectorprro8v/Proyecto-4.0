@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Soberana Sans Regular';
+    src: url('/fonts/SoberanaSans/soberanasans-regular-webfont.eot');
+    src: url('/fonts/SoberanaSans/soberanasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/SoberanaSans/soberanasans-regular-webfont.woff') format('woff'),
+         url('/fonts/SoberanaSans/soberanasans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Soberana Titular Bold';
+    src: url('/fonts/SoberanaTitular/soberanatitular-bold-webfont.eot');
+    src: url('/fonts/SoberanaTitular/soberanatitular-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/SoberanaTitular/soberanatitular-bold-webfont.woff') format('woff'),
+         url('/fonts/SoberanaTitular/soberanatitular-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cabecera{
+    min-width:1300px;
+}
+.logos{
+    min-width:1300px;
+}
+.contenidomenu{
+    min-width:1300px;
+}
+
+.lineasep{
+    min-width:1300px;
+}
+
+
+
+.pie_pagina{
+    min-width:1300px;
+}
+.responsablesac h3{
+    min-width:1300px;
+    margin-top:50px;
+    font-family: 'Soberana Sans Regular';
+    font-size: 20px;
+    letter-spacing:1px;
+    text-align: center;
+}
+
+.respac tr td{
+padding-left:20px;
+padding-right:20px;
+    border-style:solid;
+    border-width:2px;
+    color:gray;
+    border-color:gray;
+    
+}
+
+.respac{ 
+    min-width:1300px;
+    margin: auto auto;
+    margin-top:30px;
+    font-family: 'Soberana Sans Regular';
+    font-size: 13px;
+    letter-spacing:1px;
+    text-align: left;
+}
+
+.respac .ncabezado{
+    text-align:center;
+    font-size: 13px;
+    text-transform:uppercase;
+    font-weight:500;
+    
+}
+/*.respac .ncabezado td{
+   color:rgb(186, 142, 84);
+    border-color:rgb(186, 142, 84);
+}*/

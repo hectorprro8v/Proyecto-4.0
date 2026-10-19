@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Soberana Titular Bold';
+    src: url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaTitular/soberanatitular-bold-webfont.eot');
+    src: url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaTitular/soberanatitular-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaTitular/soberanatitular-bold-webfont.woff') format('woff'),
+         url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaTitular/soberanatitular-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.contenidomenu{
+    width:100%;
+    min-width:980px;
+}
+#menu {
+	list-style: none; 
+    padding: 0px;
+    margin: 0px auto; 
+    width: 1250px;
+    z-index: 9999;   
+    background-color: #f1f1f1;
+    -ms-zoom: 1;
+}
+#menu ul {
+	list-style: none; 
+    margin: 0px; 
+    padding: 0px;
+    background: linear-gradient(rgb(250, 250, 250), rgb(174, 173, 179)); 
+    margin: 0px 0px 0px 20px; 
+    border-radius: 3px; 
+    transition:0.2s ease-in-out; 
+    left: 0px; top: 40px; 
+    visibility: hidden; 
+    position: absolute; z-index: 9999; 
+    opacity: 0;_margin: 0;
+}
+
+#menu::before {
+	display: table; content: "";
+}
+#menu::after {
+	display: table; content: "";clear: both;
+}
+
+#menu li {
+	border-right-color: rgb(152, 151, 156); border-right-width: 0px; border-right-style: solid; float: left; position: relative;margin-left:auto; margin-right:auto;
+}
+#menu a {
+	font: 14px/normal "Soberana Titular Bold", Helvetica; padding: 12px 40px; text-align: left; color: rgb(152, 151, 156); text-decoration: none; float: left; font-size-adjust: none; font-stretch: normal; font-weight:700;
+}
+#menu li:hover > a {
+	color: rgb(152, 151, 156); background-color: rgb(250, 250, 250);
+}
+
+#menu li:hover > ul {
+	margin: 0px; visibility: visible; opacity: 1;
+}
+#menu ul ul {
+	margin: 20px 0px 0px; left: 100px; top: 0px; _margin: 0;
+}
+#menu ul li {
+	border: 0px currentColor; float: none; display: block; _line-height: 0;
+    
+}
+#menu ul li:last-child {
+	box-shadow: none;
+}
+#menu ul a {
+	   font: 12px/normal "Soberana Titular Bold"; padding: 12px; width: 150px; text-transform: none; float: none; display: block; font-size-adjust: none; font-stretch: normal; _height: 40px;
+}
+#menu ul a:hover {
+	font: 12px/normal "Soberana Titular Bold"; font-size-adjust: none; font-stretch: normal;
+}

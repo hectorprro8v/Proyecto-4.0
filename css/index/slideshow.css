@@ -1,0 +1,46 @@
+/*#fadeshow{
+   position:absolute;
+   margin:auto auto;
+   min-width:980px;
+}*/
+
+.botoneslr{
+    z-index:1005;
+    position:relative;
+    margin: auto auto;
+    margin-top:-230.5px;
+}
+.botoneslr td{
+    width:476.5px;
+    min-width:476.5px;
+}
+
+.botoneslr .previo{
+    background-position:center;
+    width:50px;
+    height:50px;
+    margin-left:-50.5px;
+    background-image: url('http://complementarias.itslerdo.edu.mx/img/left.png');
+    overflow: hidden;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+    display:inline-block;
+}
+.botoneslr .siguiente{
+    position:absolute;
+    margin-left:475.5px;
+    margin-top:-20px;
+    background-position:center;
+    width:50px;
+    height:50px;
+    background-image: url('http://complementarias.itslerdo.edu.mx/img/right.png');
+    overflow: hidden;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+    display:inline-block;
+}
+#slideshowtoggler{
+    visibility:hidden;
+}

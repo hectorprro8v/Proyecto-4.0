@@ -1,0 +1,40 @@
+{
+"actividades":[
+  {
+    "name":"actividad3",
+    "descripcion": "",
+    "hora_fin": "12:00:00",
+    "ubicacion": "C. DE INFORMACI\u00d3N AREA A",
+    "actividad": "Como emprender desde cero y ganar millones",
+    "biografia": "",
+    "expositor": "Lic. David  Lozano  Roque ",
+    "hora_inicio": "12:00:00",
+    "tipo": "1",
+    "dia": "2017-10-25"
+  },
+  {
+      "name":"actividad22",
+    "descripcion": "",
+    "hora_fin": "09:20:00",
+    "ubicacion": "AUDIOVISUAL 1D",
+    "actividad": "Dispositivo auxiliar para afinaci\u00f3n de guitarras",
+    "biografia": "",
+    "expositor": "Mario Alberto ",
+    "hora_inicio": "09:20:00",
+    "tipo": "2",
+    "dia": "2017-10-26"
+  },
+  {
+    "name":"actividad23",
+    "descripcion": "creado por la productora Europroducciones y dirigido por Francesco Boserman, emitido por La 1 de TVE y FORTA. Es uno de los concursos m\u00e1s veteranos de la televisi\u00f3n de Espa\u00f1a, con 14 temporadas.",
+    "hora_fin": "16:00:00",
+    "ubicacion": "LAB. DE TEC. DE COMUNICACI\u00d3N CISCO 1",
+    "actividad": "El Gran Prix del Verano",
+    "biografia": "None",
+    "expositor": "None",
+    "hora_inicio": "16:00:00",
+    "tipo": "3",
+    "dia": "2017-10-27"
+  }
+  ]
+}

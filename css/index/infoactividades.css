@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Soberana Sans Regular';
+    src: url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaSans/soberanasans-regular-webfont.eot');
+    src: url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaSans/soberanasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaSans/soberanasans-regular-webfont.woff') format('woff'),
+         url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaSans/soberanasans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Soberana Titular Bold';
+    src: url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaTitular/soberanatitular-bold-webfont.eot');
+    src: url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaTitular/soberanatitular-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaTitular/soberanatitular-bold-webfont.woff') format('woff'),
+         url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaTitular/soberanatitular-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+
+}
+.presentacionac{
+	width: 953px;
+	margin:auto auto;
+	margin-top: 100px;
+}
+
+.presentacionac p{
+	text-align: justify;
+	font-family: 'Soberana Sans Regular';
+	font-size: 13px;
+	letter-spacing:1px;
+	line-height: 30px;
+}
+.presentacionac h2{
+	font-family: 'Soberana Sans Regular';
+	font-size: 20px;
+	letter-spacing:1px;
+}
+.presentacionac li{
+    width:250px;
+    height:30px;
+    list-style:none;
+	font-family: 'Soberana Sans Regular';
+	font-size: 13px;
+	letter-spacing:1px;
+	line-height: 30px;
+	background-color:rgb(241, 241, 241);
+    margin-bottom:5px;
+}
+
+.presentacionac li a{
+	margin-left:40px;  
+}
+
+.presentacionac .presentacionac li{
+    width:250px;
+    height:30px;
+    list-style:none;
+	font-family: 'Soberana Sans Regular';
+	font-size: 13px;
+	letter-spacing:1px;
+	line-height: 30px;
+	background-color:rgb(241, 241, 241);
+    margin-bottom:5px;   
+}
+.listactid li{
+    width:500px;
+    height:30px;
+    list-style:none;
+	font-family: 'Soberana Sans Regular';
+	font-size: 13px;
+	letter-spacing:1px;
+	line-height: 30px;
+	background-color:rgb(241, 241, 241);
+    margin-bottom:5px;
+}
+.tabds {
+    margin:auto auto;
+}
+.tabds li{
+    width:350px;
+    height:30px;
+    list-style:none;
+	font-family: 'Soberana Sans Regular';
+	font-size: 13px;
+	letter-spacing:1px;
+	line-height: 30px;
+	background-color:rgb(241, 241, 241);
+    margin-bottom:5px; 
+    text-align:center;
+}
+
+.tabds .carrerasaam{
+    width:745px;
+    height:30px;
+    list-style:none;
+	font-family: 'Soberana Sans Regular';
+	font-size: 13px;
+	letter-spacing:1px;
+    margin-bottom:-30px;
+	background-color:rgb(213, 213, 202);
+    text-align:center;
+}
+.tabds .carreras{
+	background-color:rgb(213, 213, 202);
+}
+#botonsubir{
+    position: absolute;
+    visibility: visible;
+    width: 953px;
+    text-align: right;
+    margin:25% 25% ;
+    border-radius: 100%;
+    margin-top: 250px;
+}
+#botonsubir .subir{
+background-position:center;
+    width:50px;
+    height:50px;
+    margin-left:900px;
+    background-image: url('http://complementarias.itslerdo.edu.mx/img/up.png');
+   
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+    display:scroll;
+    position: fixed;
+}

@@ -1,0 +1,148 @@
+.navegador
+{
+    border-radius: 1px;
+    background-color: gainsboro;
+}
+#color-head-panel
+{
+    background-color: green;
+}
+
+#sombra
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn
+{   
+    border-radius: 10px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+
+.btn:hover
+{
+    background-color: white;
+    color: black;
+    border: .5px solid blue; /* Green */
+}
+.btn:active
+{
+    background-color: cadetblue; 
+}
+
+.input:disabled
+{
+    text-align: center;
+}
+
+a .btn
+{
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+a .btn:active
+{
+    background-color: cadetblue;
+}
+
+a .btn:hover
+{
+    background-color: skyblue;
+}
+
+a .button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+table th
+{
+    text-align: center;
+}
+table td
+{
+    text-align: center;
+}
+
+/* ESTILOS PARA EL BOTON DE SELECCIONAR ARCHIVOS */
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  }
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 5;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+/* ESTILOS PARA EL BOTON DE SELECCIONAR ARCHIVOS */
+/*ESTILOS DE TARJETAS*/
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 110, 0, .05);
+}
+/*ESTILOS DE TARJETAS*/
+

@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Soberana Sans Regular';
+    src: url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaSans/soberanasans-regular-webfont.eot');
+    src: url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaSans/soberanasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaSans/soberanasans-regular-webfont.woff') format('woff'),
+         url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaSans/soberanasans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Soberana Titular Bold';
+    src: url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaTitular/soberanatitular-bold-webfont.eot');
+    src: url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaTitular/soberanatitular-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaTitular/soberanatitular-bold-webfont.woff') format('woff'),
+         url('http://complementarias.itslerdo.edu.mx/fonts/SoberanaTitular/soberanatitular-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  margin: 0;
+    background-color:#fafafa;
+}
+
+.cabecera {
+    width:980px;
+    font-size: 12px;
+    text-align: right;
+    margin:auto auto;
+}
+.cabecera li{
+    display:inline; 
+    text-decoration:none;
+    text-align:center;
+}
+.cabecera a{
+    font-family:'Soberana Titular Bold';
+    color:gray;
+    text-decoration:none;
+    width: 409px;
+}
+.logos  {    
+    width:100%;
+}
+.imagenlogo{
+    display:block;
+    width:980px;
+    margin:auto auto;
+}
+.banner {
+    text-align:center;
+
+}
+.banner table {
+    margin-left:auto;
+    margin-right:auto;
+    border-spacing:40px;
+}
+.banner img{
+   border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    height: 228px;
+    width: 179px;
+}
+.noticias {
+    text-align:center;
+    width: 953px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    min-width:953px;
+}
+.noticias table {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+.noticias img{
+   border:0;
+}
+.noticias .texto{
+    font-size:12px;
+    margin:0;
+    text-align:left;
+    font-family:'Soberana Sans Regular';
+    color: #666666;
+}
+.lineasep{
+    text-align:center;
+	margin:auto auto;
+}
+.noticias td{
+    width:auto;
+}
+
+.bannersec{
+	width: 953px;
+	height: 208px;
+	min-width: 930px;
+	margin:auto auto;
+}
+
+
+.bsec {
+    position:absolute; 
+    width: 144px;
+    height: 208px;
+}
+
+.bannersec table{
+margin:auto auto;
+width:500px;
+
+}
+.bannersec td{
+    margin-right:15px;
+}
+.mascara{
+    position:absolute; 
+    overflow: hidden;
+    width: 144px;
+    height: 0px;
+    background-color:rgba(0, 0, 0,0.7);
+    left: 0px; 
+    top: 197px;  
+    bottom: 0px;    
+}
+
+.mascara h3{
+    text-align:center;
+
+    width:80px;
+    color:white;
+    font-size:11px;
+    font-family:'Soberana Sans Regular';
+    border-style:solid;
+    margin:50px auto;
+    background-color:black;
+
+}
+
+.mascara p{
+    text-align:center;
+
+    width:100px;
+    color:white;
+    font-size:11px;
+    font-family:'Soberana Sans Regular';
+    margin:50px auto;
+}
+
+
+.bsec:hover .mascara{
+    overflow: hidden;
+    height: 208px;
+    opacity: 1; 
+    transform: translateY(-197px); 
+    -moz-transform:translate(-197px); 
+    -webkit-transform:translate(-197); 
+    -o-transform:translate(-197px); 
+    transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -webkit-transition-delay: 0s;
+    -o-transition-delay: 0s;
+}
+
+
+
+
+.pie_pagina{
+font-family:'Soberana Sans Regular';text-align:center; color: #666666;
+}
+.pie_pagina p{
+    
+    font-size: 12px;
+    min-width: 953px;
+}
+
+.pie_pagina img{
+   border:0;
+   margin-left:auto;
+   margin-right:auto;
+    }
+
+
+
+#bottom {
+	overflow: hidden;
+}
+#footer {
+	margin: 0px auto; padding: 0px;
+}
+#footer ul {
+	font: 12px/normal "Soberana Titular Bold", Helvetica; list-style: none; text-align: left; font-size-adjust: none; font-stretch: normal;
+}
+#footer ul li {
+	padding-top: 10px; padding-right: 12px; padding-left: 0px;
+}
+.color {
+	font: 14px/normal "Soberana Titular Bold", Helvetica; text-align: left; color: rgb(165, 39, 63); margin-left: 0px; font-size-adjust: none; font-stretch: normal;
+}
+.bottom-ul {
+	width: 162px; font-size: 12px; float: left;
+}
+.bottom-ul li a {
+	color: rgb(152, 151, 156); font-size: 12px; text-decoration: none;
+}
+.bottom-ul li a:hover {
+	color: rgb(174, 173, 179);
+}
+.bottom-ul-rojo {
+	width: 162px; float: left;
+}
+.bottom-ul-rojo li a {
+	color: rgb(165, 39, 63); font-size: 12px; text-decoration: none;
+}
+.bottom-ul-rojo li a:hover {
+	color: rgb(73, 127, 67);
+}
+
+.contactos{
+	width: 953px;
+	margin: auto auto;
+}
+.contactos img{
+	border-style: none;
+    border-color: inherit;
+    border-width: medium;
+width: 53%;
+	height: 38px;
+}
+
+.contactos table td{
+	width: 80px;
+}
+
+.piemenu {
+	min-width: 953px;
+    margin-left:auto;
+    margin-right:auto;
+    border-spacing:40px;
+font-family: 'Soberana Sans Regular';
+    
+
+}
+
+.linea {
+    text-align:center;
+
+}
+.noticias a{
+    text-decoration:none;
+    list-style:none;
+}
+
+.noticias .color{
+    font: 14px/normal "Soberana Titular Bold", Helvetica; text-align: left; color: rgb(165, 39, 63); margin-left: 0px; font-size-adjust: none; font-stretch: normal;
+}
